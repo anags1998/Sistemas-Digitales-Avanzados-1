@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sat Feb 19 09:51:18 2022
+# Process ID: 32888
+# Current directory: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/com_serie
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent34144 C:\Users\anags\OneDrive\Desktop\UNI\cuatri 2\Sistemas Digitales Avanzados\Practicas\com_serie\com_serie.xpr
+# Log file: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/com_serie/vivado.log
+# Journal file: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/com_serie\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project -read_only {C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/com_serie/com_serie.xpr}
+update_compile_order -fileset sources_1
+save_project_as project_1 {C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/project_1} -force
+launch_simulation
+source tb_puerto_serie.tcl
+close_sim

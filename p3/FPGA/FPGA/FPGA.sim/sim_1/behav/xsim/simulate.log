@@ -1,0 +1,17 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sim_1/imports/OSCI/top_osci.vhd" Line 72
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sim_1/imports/OSCI/top_osci.vhd" Line 73
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 81
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 85
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 86
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 98
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 101
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 102
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 103
+Stopped at time : 1005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 106
+Stopped at time : 1010 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sim_1/imports/OSCI/top_osci.vhd" Line 70
+Stopped at time : 1010 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sim_1/imports/OSCI/top_osci.vhd" Line 71
+Stopped at time : 1010 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 81
+Stopped at time : 1010 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 85
+Stopped at time : 1010 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.srcs/sources_1/imports/OSCI/osci.vhd" Line 98

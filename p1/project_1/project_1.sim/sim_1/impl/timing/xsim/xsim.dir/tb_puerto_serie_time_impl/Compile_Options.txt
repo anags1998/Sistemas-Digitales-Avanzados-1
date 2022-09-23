@@ -1,0 +1,1 @@
+-wto "1af34ff6b0514d2492379d2d7178e2d8" --incr --debug "typical" --relax --mt "2" --maxdelay -L "xil_defaultlib" -L "simprims_ver" -L "secureip" --snapshot "tb_puerto_serie_time_impl" -transport_int_delays -pulse_r "0" -pulse_int_r "0" -pulse_e "0" -pulse_int_e "0" "xil_defaultlib.tb_puerto_serie" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Mar 14 12:35:04 2022
+# Process ID: 5300
+# Current directory: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.runs/synth_1
+# Command line: vivado.exe -log osci.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source osci.tcl
+# Log file: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.runs/synth_1/osci.vds
+# Journal file: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p3/FPGA/FPGA/FPGA.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source osci.tcl -notrace

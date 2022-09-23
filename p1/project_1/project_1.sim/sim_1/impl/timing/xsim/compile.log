@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anags/OneDrive/Desktop/project_1/project_1.sim/sim_1/impl/timing/xsim/tb_puerto_serie_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module puerto_serie
+INFO: [VRFC 10-311] analyzing module receptor
+INFO: [VRFC 10-311] analyzing module transmisor
+INFO: [VRFC 10-311] analyzing module glbl

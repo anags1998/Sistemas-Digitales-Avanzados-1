@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<probeData version="2" minor="2">
+  <probeset name="EDA_PROBESET" active="true">
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_DATA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="f2004aace0d55ad4bbbe5bb6f57469b9"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="100000000"/>
+        <Option Id="HW_ILA" value="ila_1"/>
+        <Option Id="PROBE_PORT" value="0"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="21"/>
+      </probeOptions>
+      <nets>
+        <net name="SAL[20]"/>
+        <net name="SAL[19]"/>
+        <net name="SAL[18]"/>
+        <net name="SAL[17]"/>
+        <net name="SAL[16]"/>
+        <net name="SAL[15]"/>
+        <net name="SAL[14]"/>
+        <net name="SAL[13]"/>
+        <net name="SAL[12]"/>
+        <net name="SAL[11]"/>
+        <net name="SAL[10]"/>
+        <net name="SAL[9]"/>
+        <net name="SAL[8]"/>
+        <net name="SAL[7]"/>
+        <net name="SAL[6]"/>
+        <net name="SAL[5]"/>
+        <net name="SAL[4]"/>
+        <net name="SAL[3]"/>
+        <net name="SAL[2]"/>
+        <net name="SAL[1]"/>
+        <net name="SAL[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_TRIGGER_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="BSCAN_SWITCH_INDEX" value="0"/>
+        <Option Id="CORE_LOCATION" value="1:0"/>
+        <Option Id="CORE_UUID" value="f2004aace0d55ad4bbbe5bb6f57469b9"/>
+        <Option Id="HUB_CLK_INPUT_FREQ_HZ" value="100000000"/>
+        <Option Id="HW_ILA" value="ila_1"/>
+        <Option Id="PROBE_PORT" value="1"/>
+        <Option Id="PROBE_PORT_BITS" value="0"/>
+        <Option Id="PROBE_PORT_BIT_COUNT" value="1"/>
+      </probeOptions>
+      <nets>
+        <net name="trig"/>
+      </nets>
+    </probe>
+  </probeset>
+</probeData>

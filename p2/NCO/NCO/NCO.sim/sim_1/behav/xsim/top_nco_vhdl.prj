@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../NCO.srcs/sources_1/imports/NCO/NCO.vhd" \
+"../../../../NCO.srcs/sim_1/imports/NCO/top_nco.vhd" \
+
+# Do not sort compile order
+nosort

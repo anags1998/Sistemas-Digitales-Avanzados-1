@@ -1,0 +1,5 @@
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+Failure: fin
+Time: 82010005 ns  Iteration: 3  Process: /top_nco/uut/write_osci  File: C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p2/NCO/NCO/NCO.srcs/sources_1/imports/NCO/NCO.vhd
+$finish called at time : 82010005 ns : File "C:/Users/anags/OneDrive/Desktop/UNI/cuatri 2/Sistemas Digitales Avanzados/Practicas/p2/NCO/NCO/NCO.srcs/sources_1/imports/NCO/NCO.vhd" Line 129

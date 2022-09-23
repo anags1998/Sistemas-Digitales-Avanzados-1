@@ -1,0 +1,100 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Feb 21 11:00:06 2022
+# Process ID: 20492
+# Current directory: C:/Users/anags/OneDrive/Desktop/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14220 C:\Users\anags\OneDrive\Desktop\project_1\project_1.xpr
+# Log file: C:/Users/anags/OneDrive/Desktop/project_1/vivado.log
+# Journal file: C:/Users/anags/OneDrive/Desktop/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anags/OneDrive/Desktop/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_puerto_serie.tcl
+relaunch_sim
+run all
+relaunch_sim
+run all
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+step
+run all
+step
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+run all
+relaunch_sim
+run all
+relaunch_sim
+run all
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+relaunch_sim
+run all
+relaunch_sim
+run all
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/anags/OneDrive/Desktop/project_1/project_1.runs/impl_1/puerto_serie.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/anags/OneDrive/Desktop/project_1/project_1.runs/impl_1/puerto_serie.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+close_sim
+launch_simulation
+source tb_puerto_serie.tcl
+run all
+launch_simulation -mode post-implementation -type timing
+source tb_puerto_serie.tcl
+run all
+relaunch_sim
+current_sim simulation_2
+close_sim
+launch_simulation
+launch_simulation
+close_sim

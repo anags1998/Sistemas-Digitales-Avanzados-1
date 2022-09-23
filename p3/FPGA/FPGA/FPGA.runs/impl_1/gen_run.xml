@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1647257703">
+  <File Type="ROUTE-PWR" Name="osci_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="osci.tcl"/>
+  <File Type="BITSTR-BMM" Name="osci_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="osci_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="osci_reports.tcl"/>
+  <File Type="OPT-DCP" Name="osci_opt.dcp"/>
+  <File Type="OPT-DRC" Name="osci_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="osci.hwdef"/>
+  <File Type="PWROPT-DCP" Name="osci_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="osci_placed.dcp"/>
+  <File Type="PLACE-IO" Name="osci_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="osci_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="osci_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="osci_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="osci_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="osci.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="osci_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="osci.bin"/>
+  <File Type="PHYSOPT-DCP" Name="osci_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="osci.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="osci_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="osci_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="osci_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="osci_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="osci_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="osci_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="osci.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="osci_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="osci.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="osci_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="osci_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="osci.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="osci_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="osci_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="osci_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="osci_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="osci_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="osci_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="osci_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="osci_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="osci_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="osci_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="osci_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="osci_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="osci.bit"/>
+  <File Type="BITSTR-RBT" Name="osci.rbt"/>
+  <File Type="BITSTR-NKY" Name="osci.nky"/>
+  <File Type="BG-DRC" Name="osci.drc"/>
+  <File Type="RDI-RDI" Name="osci.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/OSCI/osci.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="osci"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/OSCI/p1.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../p1.xdc"/>
+        <Attr Name="ImportTime" Val="1601444925"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ila_0"/>
+</GenRun>
